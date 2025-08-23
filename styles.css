@@ -332,7 +332,11 @@ body {
     position: relative;
     z-index: 10;
     text-align: center;
-    padding: 100px 20px 40px;
+    padding: 60px 20px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 50px);
 }
 
 .hero-logo {
@@ -397,12 +401,12 @@ body {
 
 .scroll-indicator {
     position: absolute;
-    bottom: 40px;
+    bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
-    animation: bounce 2s ease-in-out infinite;
-    opacity: 0;
     animation: fade-in 1s ease-out 1.2s forwards, bounce 2s ease-in-out 2.2s infinite;
+    z-index: 15;
+    text-align: center;
 }
 
 .scroll-indicator span {
