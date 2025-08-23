@@ -401,10 +401,7 @@ body {
 }
 
 .scroll-indicator {
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 40px;
     animation: fade-in 1s ease-out 1.2s forwards, bounce 2s ease-in-out 2.2s infinite;
     z-index: 15;
     text-align: center;
