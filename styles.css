@@ -121,7 +121,7 @@ html {
 }
 
 body {
-    font-family: 'Bebas Neue', 'Noto Sans JP', sans-serif;
+    font-family: 'Chewy', 'Noto Sans JP', cursive;
     background-color: #1a1a2e;
     color: #ffffff;
     overflow-x: hidden;
@@ -371,7 +371,7 @@ body {
 }
 
 .date-main {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chewy', cursive;
     font-size: 32px;
     color: #ffffff;
     display: block;
@@ -449,7 +449,7 @@ body {
 }
 
 .hangout-title {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chewy', cursive;
     font-size: 48px;
     color: #ff006e;
     margin-bottom: 30px;
@@ -542,7 +542,7 @@ body {
 }
 
 .card-header h3 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chewy', cursive;
     font-size: 28px;
     color: #ffbe0b;
 }
@@ -573,7 +573,7 @@ body {
 }
 
 .section-title {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chewy', cursive;
     font-size: 42px;
     color: #ffbe0b;
     text-align: center;
@@ -612,7 +612,7 @@ body {
 }
 
 .dj-name {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chewy', cursive;
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 4px;
@@ -686,7 +686,7 @@ body {
 }
 
 .schedule-time {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chewy', cursive;
     font-size: 24px;
     color: #ffbe0b;
     margin-bottom: 5px;
