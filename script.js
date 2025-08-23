@@ -1,3 +1,61 @@
+// Navigation Menu Toggle
+const navToggle = document.getElementById('navToggle');
+const navList = document.getElementById('navList');
+
+navToggle?.addEventListener('click', () => {
+    navToggle.classList.toggle('active');
+    navList.classList.toggle('active');
+});
+
+// Smooth Scroll and Close Menu on Link Click
+const navLinks = document.querySelectorAll('.nav-link');
+navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        // Close mobile menu
+        navToggle?.classList.remove('active');
+        navList?.classList.remove('active');
+        
+        // Get target section
+        const targetId = link.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        
+        if (targetSection) {
+            // Calculate offset for fixed nav
+            const navHeight = document.querySelector('.nav-menu').offsetHeight;
+            const targetPosition = targetSection.offsetTop - navHeight;
+            
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// Active Link Highlighting
+window.addEventListener('scroll', () => {
+    const sections = document.querySelectorAll('section[id]');
+    const navHeight = document.querySelector('.nav-menu').offsetHeight;
+    const scrollPosition = window.scrollY + navHeight + 100;
+    
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        const sectionId = section.getAttribute('id');
+        
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${sectionId}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+    });
+});
+
 // Loading Animation
 window.addEventListener('load', () => {
     setTimeout(() => {

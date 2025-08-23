@@ -1,3 +1,112 @@
+/* Navigation Menu */
+.nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(26, 26, 46, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid #ff006e;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.nav-toggle {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #ffbe0b;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.nav-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.nav-list {
+    display: none;
+    list-style: none;
+    padding: 60px 20px 20px;
+    margin: 0;
+    background: #1a1a2e;
+    border-top: 1px solid #ff006e;
+}
+
+.nav-list.active {
+    display: block;
+}
+
+.nav-link {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 190, 11, 0.2);
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: #ff006e;
+    padding-left: 10px;
+    border-bottom-color: #ff006e;
+}
+
+.nav-link.active {
+    color: #ffbe0b;
+    border-bottom-color: #ffbe0b;
+}
+
+/* Desktop Navigation */
+@media (min-width: 768px) {
+    .nav-toggle {
+        display: none;
+    }
+    
+    .nav-list {
+        display: flex !important;
+        padding: 15px 20px;
+        border-top: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .nav-link {
+        padding: 5px 10px;
+        border-bottom: none;
+        font-size: 14px;
+    }
+    
+    .nav-link:hover,
+    .nav-link:active {
+        padding-left: 10px;
+        border-bottom: 2px solid #ff006e;
+    }
+}
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -93,6 +202,7 @@ body {
     background: #1a1a2e;
     overflow: hidden;
     padding: 0;
+    margin-top: 50px; /* Space for fixed nav */
 }
 
 .hero-bg {
