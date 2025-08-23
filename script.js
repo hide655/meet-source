@@ -45,6 +45,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (djCards.length > 0) {
         observer.observe(djCards[0]); // Only observe the first one to trigger all
     }
+    
+    // Observe schedule items
+    const scheduleItems = document.querySelectorAll('.schedule-item');
+    scheduleItems.forEach(item => observer.observe(item));
+    
+    // Observe sponsor items
+    const sponsorItems = document.querySelectorAll('.sponsor-item');
+    sponsorItems.forEach(item => observer.observe(item));
 });
 
 // Fixed CTA Button visibility
@@ -124,24 +132,40 @@ if (gallerySlider) {
     });
 }
 
-// Add subtle rotation animation to hero title on touch
-const heroTitle = document.querySelector('.hero-title');
-if (heroTitle) {
-    heroTitle.addEventListener('click', () => {
-        heroTitle.style.animation = 'none';
+// Add subtle rotation animation to hero logo on touch
+const heroLogo = document.querySelector('.hero-logo');
+if (heroLogo) {
+    heroLogo.addEventListener('click', () => {
+        heroLogo.style.animation = 'none';
         setTimeout(() => {
-            heroTitle.style.animation = 'title-wiggle 0.5s ease';
+            heroLogo.style.animation = 'logo-bounce 0.5s ease';
         }, 10);
     });
 }
 
-// CSS animation for title wiggle (injected via JS)
+// CSS animation for logo bounce (injected via JS)
 const style = document.createElement('style');
 style.textContent = `
-    @keyframes title-wiggle {
-        0%, 100% { transform: perspective(500px) rotateY(-5deg); }
-        25% { transform: perspective(500px) rotateY(-10deg); }
-        75% { transform: perspective(500px) rotateY(0deg); }
+    @keyframes logo-bounce {
+        0%, 100% { transform: scale(1); }
+        25% { transform: scale(1.1); }
+        75% { transform: scale(0.95); }
+    }
+    
+    .schedule-item.visible {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+    .sponsor-item {
+        opacity: 0;
+        transform: scale(0.9);
+        transition: all 0.6s ease;
+    }
+    
+    .sponsor-item.visible {
+        opacity: 1;
+        transform: scale(1);
     }
 `;
 document.head.appendChild(style);
