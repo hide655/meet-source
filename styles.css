@@ -277,14 +277,14 @@ body {
 }
 
 .lightning-1 {
-    top: 40%;
-    left: 5%;
+    top: 30%;
+    left: 8%;
     animation: float-in 1s ease-out 0.7s forwards, flash 5s ease-in-out 1.7s infinite;
 }
 
 .lightning-2 {
-    bottom: 15%;
-    right: 10%;
+    bottom: 5%;
+    right: 8%;
     animation: float-in 1s ease-out 0.9s forwards, flash 6s ease-in-out 1.9s infinite;
 }
 
@@ -332,7 +332,11 @@ body {
     position: relative;
     z-index: 10;
     text-align: center;
-    padding: 60px 20px 40px;
+    padding: 40px 30px 50px;
+    background: rgba(26, 26, 46, 0.7);
+    margin: 60px 20px 40px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 190, 11, 0.3);
 }
 
 .hero-logo {
