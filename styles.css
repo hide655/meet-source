@@ -889,15 +889,15 @@ body {
 }
 
 .star-img-2 {
-    bottom: 35%;
-    right: 3%;
+    bottom: 20%;
+    left: 10%;
     animation-delay: 1.2s;
     width: 30px;
 }
 
 .thunder-img-2 {
-    bottom: 20%;
-    left: 10%;
+    bottom: 35%;
+    right: 3%;
     animation-delay: 1.6s;
     width: 18px;
 }
