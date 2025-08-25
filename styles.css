@@ -861,6 +861,54 @@ body {
     height: auto;
 }
 
+/* Hero section decoration elements */
+.star-img {
+    width: 25px;
+    height: auto;
+    animation: float-in 1s ease-out forwards, twinkle 3s ease-in-out infinite;
+}
+
+.thunder-img {
+    width: 18px;
+    height: auto;
+    animation: float-in 1s ease-out forwards, flash 5s ease-in-out infinite;
+}
+
+.star-img-1 {
+    top: 10%;
+    right: 8%;
+    animation-delay: 0.4s;
+    width: 20px;
+}
+
+.thunder-img-1 {
+    top: 25%;
+    left: 5%;
+    animation-delay: 0.8s;
+    width: 21px;
+}
+
+.star-img-2 {
+    bottom: 35%;
+    right: 3%;
+    animation-delay: 1.2s;
+    width: 30px;
+}
+
+.thunder-img-2 {
+    bottom: 20%;
+    left: 10%;
+    animation-delay: 1.6s;
+    width: 18px;
+}
+
+.star-img-3 {
+    top: 45%;
+    right: 12%;
+    animation-delay: 2.0s;
+    width: 25px;
+}
+
 /* Update section positioning */
 .hangout-section,
 .info-section,
