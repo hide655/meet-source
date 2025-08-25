@@ -673,7 +673,6 @@ body {
 .schedule-item:nth-child(9) { animation-delay: 0.9s; }
 .schedule-item:nth-child(10) { animation-delay: 1.0s; }
 .schedule-item:nth-child(11) { animation-delay: 1.1s; }
-.schedule-item:nth-child(12) { animation-delay: 1.2s; }
 
 .schedule-item::before {
     content: '';
@@ -701,12 +700,20 @@ body {
 .schedule-content h4 {
     font-size: 16px;
     color: #ffffff;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
-.schedule-content p {
-    font-size: 13px;
+.schedule-performer {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.schedule-company {
+    font-size: 11px;
     color: #a0a0a0;
+    opacity: 0.8;
 }
 
 .schedule-item.highlight .schedule-content h4 {
