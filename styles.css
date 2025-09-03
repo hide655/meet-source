@@ -368,26 +368,25 @@ body {
     margin-top: 20px;
     animation: fade-in 1s ease-out 0.8s backwards;
     text-align: center;
-    background: rgba(26, 26, 46, 0.9);
-    backdrop-filter: blur(10px);
-    border-radius: 12px;
-    padding: 16px 24px;
-    border: 2px solid rgba(255, 190, 11, 0.3);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    max-width: 280px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
 }
 
 .date-main {
     font-family: 'Anton', sans-serif;
     font-size: 36px;
     color: #ffffff;
-    display: block;
-    margin-bottom: 12px;
+    display: inline-block;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: rgba(26, 26, 46, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 8px 16px;
+    border: 2px solid rgba(255, 190, 11, 0.4);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 .date-time {
@@ -396,6 +395,12 @@ body {
     font-weight: 700;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     letter-spacing: 0.5px;
+    display: inline-block;
+    background: rgba(26, 26, 46, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 6px 12px;
+    border: 2px solid rgba(255, 0, 110, 0.4);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 @keyframes fade-in {
