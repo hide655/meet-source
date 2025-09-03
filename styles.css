@@ -610,6 +610,9 @@ body {
     height: 80px;
     background: linear-gradient(135deg, #ff006e 0%, #ffbe0b 100%);
     margin: 0 auto 16px;
+    border-radius: 50%;
+    border: 3px solid #ffbe0b;
+    box-shadow: 0 0 20px rgba(255, 190, 11, 0.5);
 }
 
 .dj-name {
