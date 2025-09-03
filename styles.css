@@ -482,37 +482,6 @@ body {
     font-weight: 700;
 }
 
-.animated-icons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    font-size: 40px;
-}
-
-.animated-icons span {
-    animation: icon-bounce 1s ease-in-out infinite;
-}
-
-.icon-music {
-    animation-delay: 0s;
-}
-
-.icon-tech {
-    animation-delay: 0.2s;
-}
-
-.icon-party {
-    animation-delay: 0.4s;
-}
-
-@keyframes icon-bounce {
-    0%, 100% {
-        transform: translateY(0) scale(1);
-    }
-    50% {
-        transform: translateY(-10px) scale(1.1);
-    }
-}
 
 /* Info Section */
 .info-section {
