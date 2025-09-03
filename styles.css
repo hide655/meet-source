@@ -121,7 +121,7 @@ html {
 }
 
 body {
-    font-family: 'Chewy', 'Noto Sans JP', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     background-color: #1a1a2e;
     color: #ffffff;
     overflow-x: hidden;
@@ -370,11 +370,13 @@ body {
 }
 
 .date-main {
-    font-family: 'Chewy', cursive;
-    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;
     color: #ffffff;
     display: block;
     margin-bottom: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .date-time {
@@ -450,7 +452,9 @@ body {
 }
 
 .hangout-title {
-    font-family: 'Chewy', cursive;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     font-size: 48px;
     color: #ff006e;
     margin-bottom: 30px;
@@ -543,7 +547,9 @@ body {
 }
 
 .card-header h3 {
-    font-family: 'Chewy', cursive;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     font-size: 28px;
     color: #ffbe0b;
 }
@@ -574,7 +580,9 @@ body {
 }
 
 .section-title {
-    font-family: 'Chewy', cursive;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     font-size: 42px;
     color: #ffbe0b;
     text-align: center;
@@ -620,7 +628,9 @@ body {
 }
 
 .dj-name {
-    font-family: 'Chewy', cursive;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 4px;
@@ -730,7 +740,9 @@ body {
 }
 
 .schedule-time {
-    font-family: 'Chewy', cursive;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     font-size: 24px;
     color: #ffbe0b;
     margin-bottom: 5px;
