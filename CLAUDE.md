@@ -136,13 +136,13 @@ PCでアクセスした場合も、モバイル幅（max-width: 430px）で中�
       "startTime": "21:00",
       "endTime": "21:30",
       "type": "dj",
-      "title": "DJ JAYS",
+      "title": "DJ Kg",
       "performers": [
         {
-          "name": "DJ Jays",
-          "organization": "株式会社HAB&Co.",
-          "profile": "大分県出身。2007年DJとしてのキャリアをスタート。Black Musicを中心に様々なジャンルを織り込んでいくオープンフォーマットスタイルと、WordPlayやスクラッチを織り交ぜたクリエイティブなプレイでPartyをRockしている。",
-          "imageFile": "img/DJJays.jpg"
+          "name": "DJ Kg",
+          "organization": "株式会社moreMost",
+          "profile": "10代後半から活動をスタートし、現在は大分県内のクラブのレギュラーイベントをメインに活動しつつ、ゲストイベントのオーガナイズや中心市街地・野外・ストリートのイベントなども積極的に展開する。楽曲制作・リリースやMCへの提供、アナログ・デジタルを織り交ぜたマシンライブ、ステージ・広告物などの制作も手掛ける。",
+          "imageFile": "img/DJKg.png"
         }
       ]
     },
@@ -241,8 +241,14 @@ PCでアクセスした場合も、モバイル幅（max-width: 430px）で中�
       "title": "ビートライブ",
       "performers": [
         {
-          "name": "ケイジ",
-          "organization": "",
+          "name": "DJ Kg",
+          "organization": "株式会社moreMost",
+          "profile": "",
+          "imageFile": ""
+        },
+        {
+          "name": "Shibaken",
+          "organization": "エンノード",
           "profile": "",
           "imageFile": ""
         }
@@ -267,13 +273,13 @@ PCでアクセスした場合も、モバイル幅（max-width: 430px）で中�
       "startTime": "26:00",
       "endTime": "26:30",
       "type": "dj",
-      "title": "DJ Kg",
+      "title": "DJ JAYS",
       "performers": [
         {
-          "name": "DJ Kg",
-          "organization": "株式会社moreMost",
-          "profile": "10代後半から活動をスタートし、現在は大分県内のクラブのレギュラーイベントをメインに活動しつつ、ゲストイベントのオーガナイズや中心市街地・野外・ストリートのイベントなども積極的に展開する。楽曲制作・リリースやMCへの提供、アナログ・デジタルを織り交ぜたマシンライブ、ステージ・広告物などの制作も手掛ける。",
-          "imageFile": "img/DJKg.png"
+          "name": "DJ Jays",
+          "organization": "株式会社HAB&Co.",
+          "profile": "大分県出身。2007年DJとしてのキャリアをスタート。Black Musicを中心に様々なジャンルを織り込んでいくオープンフォーマットスタイルと、WordPlayやスクラッチを織り交ぜたクリエイティブなプレイでPartyをRockしている。",
+          "imageFile": "img/DJJays.jpg"
         }
       ]
     },
@@ -294,7 +300,7 @@ PCでアクセスした場合も、モバイル幅（max-width: 430px）で中�
 | 時間 | 内容 | 演者 | 所属 |
 |------|------|------|------|
 | **20:00-21:00** | リハーサル・会場準備 | - | - |
-| **21:00-21:30** | DJ JAYS | DJ Jays | 株式会社HAB&Co. |
+| **21:00-21:30** | DJ Kg | DJ Kg | 株式会社moreMost |
 | **21:30-22:00** | DJ 逢莉 | DJ 逢莉 | - |
 | **22:00-22:15** | 🥂 乾杯 | - | - |
 | **22:15-22:30** | 歓談タイム | - | - |
@@ -302,9 +308,9 @@ PCでアクセスした場合も、モバイル幅（max-width: 430px）で中�
 | **23:00-23:30** | ライブAIコーディング | 川野 秀幸 | Nanolights |
 | **23:30-24:30** | オープンマイク | 青柳 他 | - |
 | **24:30-25:00** | DJ smokin | DJ smokin | - |
-| **25:00-25:30** | ビートライブ | ケイジ | - |
+| **25:00-25:30** | ビートライブ | DJ Kg + Shibaken | 株式会社moreMost / エンノード |
 | **25:30-26:00** | ラップパフォーマンス | 勝河 祥 | LAUNCH CRAFT |
-| **26:00-26:30** | DJ Kg | DJ Kg | 株式会社moreMost |
+| **26:00-26:30** | DJ JAYS | DJ Jays | 株式会社HAB&Co. |
 | **26:30-27:00** | フリーDJタイム | 各DJ | - |
 
 #### 運営体制
