@@ -179,14 +179,17 @@ PCでアクセスした場合も、モバイル幅（max-width: 430px）で中�
     {
       "startTime": "22:30",
       "endTime": "23:00",
-      "type": "talk",
-      "title": "トークセッション",
+      "type": "live",
+      "title": "LIVE",
       "performers": [
         {
-          "name": "大久保 貴浩",
-          "organization": "株式会社クオックス",
-          "profile": "",
-          "imageFile": ""
+          "name": "早川 里緒",
+          "organization": "株株式会社ブレイク",
+          "profile": "高校卒業後、台湾の大学に進学し、約8年間を台湾で過ごす。
+大分県のスキルアップ講座に参加したことをきっかけに、台湾人の夫とともに2025年3月に大分県別府市へ移住。
+現在はWebマーケティング支援やスクール講師を務めるほか、大分移住支援にも携わっている。
+",
+          "imageFile": "hayakawa.png"
         }
       ]
     },
@@ -212,10 +215,10 @@ PCでアクセスした場合も、モバイル幅（max-width: 430px）で中�
       "title": "オープンマイク",
       "performers": [
         {
-          "name": "青柳",
-          "organization": "",
-          "profile": "",
-          "imageFile": ""
+          "name": "青柳 謙一郎",
+          "organization": "ODEN",
+          "profile": "1981年生まれの44歳、ファミコン生まれプレステ育ち。オタクなヤツは大体トモダチ。駅前のゲームセンター「フォーカス」で青春時代を過ごし、大学時代は東京（千葉）で麻雀とアニメに明け暮れた男。今は巡り巡って大分からデジタルコンテンツ産業を生み出すお手伝いをしています。",
+          "imageFile": "oden_logo_square_illust.png"
         }
       ],
       "description": "ピッチイベント、歌、特技披露など自由参加。https://oden.pref.oita.jp/ の内容紹介など"
