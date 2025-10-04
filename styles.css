@@ -82,10 +82,18 @@
 
 /* Desktop Navigation */
 @media (min-width: 768px) {
+    .nav-menu {
+        max-width: 100%;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        width: 430px;
+    }
+
     .nav-toggle {
         display: none;
     }
-    
+
     .nav-list {
         display: flex !important;
         padding: 15px 20px;
@@ -93,13 +101,13 @@
         justify-content: space-around;
         align-items: center;
     }
-    
+
     .nav-link {
         padding: 5px 10px;
         border-bottom: none;
         font-size: 14px;
     }
-    
+
     .nav-link:hover,
     .nav-link:active {
         padding-left: 10px;
